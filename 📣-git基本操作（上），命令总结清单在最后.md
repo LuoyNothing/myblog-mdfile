@@ -2,6 +2,7 @@
 title: 📣 git基本操作（上），命令总结清单在最后
 date: 2023-08-31 00:09:48
 tags: git
+categories: 前端
 ---
 
 <meta name="referrer" content="no-referrer"/>
