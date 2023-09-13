@@ -148,6 +148,19 @@ git branch -d dev
 
 
 
+# 📚 常见问题解决方案
+
+```git
+//取消http代理
+git config --global --unset http.proxy
+//取消https代理 
+git config --global --unset https.proxy
+
+git config --global http.sslVerify "false"
+```
+
+
+
 
 # 📚 命令汇总
 - 远程仓库
