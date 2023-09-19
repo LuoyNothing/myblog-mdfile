@@ -144,6 +144,28 @@ hexo d
 
 
 
+## 🌸 常见问题
+
+1.hexo引用网络图片无法显示问题。
+
+答：在文章的头部位置添加：`<meta name="referrer" content="no-referrer"/>` 即可
+
+2.Nunjucks Error: 解决方案
+
+答：最主要原因是用`{ { } }`或`{ ％ ％ }`包装的内容将被解析，并可能导致问题。比如写公式的时候就容易解析出错，所以可以采用如下解决方式：
+
+```text
+{% raw %}	// 敏感内容前加上这个
+Hello {{ sensitive }}	// 敏感内容被包装在中间
+{% endraw %}	// 敏感内容后加上这个
+```
+
+3.添加自定义HTML文件
+
+[Hexo博客技巧：添加自定义html页面](https://blog.csdn.net/weixin_58068682/article/details/116611715)
+
+
+
 # 📚 博客更新说明
 
 **2023-8-30**	

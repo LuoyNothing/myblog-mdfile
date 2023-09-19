@@ -1,7 +1,7 @@
 ---
-title: 📣-word使用中常见问题
+title: 📣 word使用中常见问题
 date: 2023-09-13 19:18:22
-tags:word
+tags: word
 categories: 文档
 ---
 
@@ -33,3 +33,5 @@ categories: 文档
 3. word菜单栏点击MathType->格式化公式，然后如下图进行操作即可
 
 <p align=center><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1b9db39bfa304747824428946d967ec9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=655&h=584&s=66586&e=png&b=f2f2f2" width="50%"/></p>
+
+# 📚 想要在公式里加空格
