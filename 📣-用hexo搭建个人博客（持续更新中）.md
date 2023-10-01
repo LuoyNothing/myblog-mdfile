@@ -142,7 +142,13 @@ hexo g
 hexo d
 ```
 
+## 🌸 给博客加子分类
 
+```yaml
+categories: [“父亲分类”, “子分类”]
+```
+
+[Hexo 一篇文章多个 categories - 简书 (jianshu.com)](https://www.jianshu.com/p/bff1b1845ac9)
 
 ## 🌸 常见问题
 
@@ -191,6 +197,4 @@ Hello {{ sensitive }}	// 敏感内容被包装在中间
 标签：相当于关键字吧，里面的某个知识点
 
 4.博客中的图片不显示问题
-
-
 

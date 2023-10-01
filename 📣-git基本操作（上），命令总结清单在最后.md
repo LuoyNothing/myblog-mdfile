@@ -102,9 +102,7 @@ $ git config --global user.email "email@example.com"
   
   <p align=center><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9163aac12fa247a9b317752e7513c3e9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=483&h=233&e=png&b=000000"  width="50%" /></p>
   
-- 文件已经添加到暂存区(stage)。可以使用`git reset HEAD 文件名+后缀`来把暂存区的修改撤销掉（unstage），重新放回工作区。然后`git checkout -- file`即可
-
-  <p align=center><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/71d07765f66a4466b52c60ee8848975e~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=459&h=386&e=png&b=000000"  width="40%"/></p>
+- <p align=center><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/48b9efa881c846f1a27456a61fedff79~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=522&h=333&s=203774&e=png&b=daeced"  width="50%"/></p>
 
 现在，假设你不但改错了东西，还从暂存区提交到了版本库，怎么办呢？还记得版本回退吗？可以回退到上一个版本。不过，这是有条件的，就是你还没有把自己的本地版本库推送到远程，如果提交到远程仓库就G啦。
 
