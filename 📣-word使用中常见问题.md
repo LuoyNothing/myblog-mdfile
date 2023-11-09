@@ -35,3 +35,15 @@ categories: 文档
 <p align=center><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1b9db39bfa304747824428946d967ec9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=655&h=584&s=66586&e=png&b=f2f2f2" width="50%"/></p>
 
 # 📚 想要在公式里加空格
+
+
+
+# 📚 公式复制粘贴问题
+
+问题：复制粘贴之后公式变成图片不能编辑
+
+解决：只需要将MathType里的一个设置更改
+
+<p align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6509da1ef9254d8aac43fcd9b5542a01~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1323&h=520&s=73409&e=png&b=f5f5f5" width="80%"/></p>
+
+将剪切与复制里的MathML改为 namespace attr2.0 就可以了
